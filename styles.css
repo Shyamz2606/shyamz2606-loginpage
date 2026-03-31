@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #ff9b47; /* Orange page background */
+  color: #222;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 420px;
+  padding: 20px;
+}
+
+.login-box {
+  background: #a3f7b5; /* Light green form background */
+  border-radius: 16px;
+  padding: 32px;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.2);
+}
+
+.login-box h1 {
+  font-size: 2rem;
+  margin-bottom: 0.35rem;
+}
+
+.login-box p {
+  margin-bottom: 1.2rem;
+  color: #334;
+}
+
+.login-box label {
+  display: block;
+  margin-bottom: 0.35rem;
+  font-weight: 600;
+  color: #334;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 14px;
+  border: 1px solid #bfc4d1;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  font-size: 0.9rem;
+}
+
+.remember-forgot a {
+  color: #1a3df8;
+  text-decoration: none;
+}
+
+.login-box button {
+  width: 100%;
+  background: #1a3df8;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 13px;
+  font-size: 1.05rem;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.login-box button:hover {
+  background: #0f2dc8;
+  transform: translateY(-1px);
+}
+
+.signup {
+  margin-top: 16px;
+  text-align: center;
+  color: #546584;
+}
+
+.signup a {
+  color: #1a3df8;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 16px;
+  }
+
+  .login-box {
+    padding: 24px;
+  }
+}
