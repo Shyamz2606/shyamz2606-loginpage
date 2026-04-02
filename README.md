@@ -88,14 +88,6 @@ cd login-page
 
 ---
 
-## 🖼️ Screenshot
-
-```
-![Login Page](screenshot.png)
-```
-
-(Add your screenshot file in repo)
-
 ---
 
 ## 📌 Notes
