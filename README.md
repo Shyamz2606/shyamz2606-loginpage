@@ -89,12 +89,3 @@ cd login-page
 ---
 
 ---
-
-## 📌 Notes
-
-* No backend connection
-* No validation using JavaScript
-* Static frontend project
-
----
-
