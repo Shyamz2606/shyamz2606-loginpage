@@ -34,6 +34,8 @@ login-page/
 │── style.css
 │── screenshot.png
 ```
+***screenshot ***
+<img width="1352" height="674" alt="Screenshot 2026-05-07 185535" src="https://github.com/user-attachments/assets/9622f162-9707-407e-805e-df84be389d5f" />
 
 ---
 
